@@ -36,7 +36,7 @@ chmod +x rapid.sh
 
 - `requests`: Number of requests to send (default is 5)
 
-- `url`: Server URL (`https://example:443`)
+- `url`: Server URL (`https://example.com:443`)
 
 - `wait`: Wait time in milliseconds between starting workers (default is 0)
 
@@ -46,7 +46,7 @@ chmod +x rapid.sh
 
 ### Example
 
-Send 10 HTTP/2 requests (HEADERS and RST_STREAM frames) over a single connection to https://example.com using 5 workers, a 10 ms delay between sending HEADERS and RST_STREAM frames, and a wait time of 100 ms between each invocation.
+Send 20 HTTP/2 requests (HEADERS and RST_STREAM frames) over a single connection to https://example.com using 5 workers, a 10 ms delay between sending HEADERS and RST_STREAM frames, and a wait time of 100 ms between each invocation.
 
 ## Contact Me
 
