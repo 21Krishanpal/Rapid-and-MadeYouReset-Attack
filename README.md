@@ -23,11 +23,14 @@ cd rapidresetclient
 chmod +x rapid.sh
 ./rapid.sh
 
+```
 <img width="953" height="81" alt="image" src="https://github.com/user-attachments/assets/4ef6aa05-7b2d-461c-98e1-9155eb6cf4cb" />
 
+<img width="947" height="60" alt="image" src="https://github.com/user-attachments/assets/ec134ec6-b141-4a2f-9166-36b09cbe43c4" />
 
+<img width="940" height="225" alt="image" src="https://github.com/user-attachments/assets/0a86cf39-f054-4910-a407-a101c4d93933" />
 
-```
+<img width="950" height="330" alt="image" src="https://github.com/user-attachments/assets/e79f92a7-1d66-45e0-a24d-09c609a73156" />
 
 ### Flags
 
