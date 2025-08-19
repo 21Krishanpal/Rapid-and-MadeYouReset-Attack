@@ -23,13 +23,9 @@ cd rapidresetclient
 chmod +x rapid.sh
 ./rapid.sh
 
-<img width="944" height="88" alt="image" src="https://github.com/user-attachments/assets/c5c2a26d-510f-4dd1-bb43-6dc04f173f83" />
+![Tool Banner]
+<img width="923" height="81" alt="image" src="https://github.com/user-attachments/assets/0d9762ad-1c18-45f7-9834-e950ba75b99d" />
 
-<img width="923" height="70" alt="image" src="https://github.com/user-attachments/assets/af0c7268-dd97-4f22-abf2-90e846d00cf9" />
-
-<img width="952" height="229" alt="image" src="https://github.com/user-attachments/assets/843f7eee-7e5e-4f74-95b7-4cae547bb5f2" />
-
-<img width="914" height="332" alt="image" src="https://github.com/user-attachments/assets/6b3be23d-a56f-4828-9e78-086769db39e6" />
 
 ```
 
