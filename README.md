@@ -33,7 +33,7 @@ chmod +x rapid.sh
 
 - `requests`: Number of requests to send (default is 5)
 
-- `url`: Server URL (default is `https://localhost:443`)
+- `url`: Server URL (`https://example:443`)
 
 - `wait`: Wait time in milliseconds between starting workers (default is 0)
 
