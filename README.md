@@ -1,6 +1,6 @@
-# Rapid Reset Client
+# Rapid and MadeYou Reset Attack
 
-Rapid Reset Client is a tool for testing mitigations and exposure to CVE-2023-44487 (Rapid Reset DDoS attack vector). It implements a minimal HTTP/2 client that opens a single TCP socket, negotiates TLS, ignores the certificate, and exchanges SETTINGS frames. The client then sends rapid HEADERS frames followed by RST_STREAM frames. It monitors for (but does not handle) server frames after initial setup, other than to send to stdout. This functionality is easily removed from source if it's too annoying. 
+Rapid and MadeYouReset script is a testing tool for the Rapid/MadeYouReset DDoS attack. It uses a minimal HTTP/2 client that connects over TLS, skips certificate checks, and sends rapid HEADERS and RST_STREAM frames to check if a server is vulnerable. 
 
 ## Prerequisites
 
@@ -13,19 +13,24 @@ Tested on go1.21.3 on arm64.
 ### Clone the Repository
 
 ```
-git clone https://github.com/secengjeff/rapidresetclient.git
+git clone https://github.com/21Krishanpal/Rapid-and-MadeYouReset-Attack.git
 ```
 
 ### Installing
 
 ```
 cd rapidresetclient
+chmod +x rapid.sh
+./rapid.sh
 
-go get golang.org/x/net/http2
+<img width="944" height="88" alt="image" src="https://github.com/user-attachments/assets/c5c2a26d-510f-4dd1-bb43-6dc04f173f83" />
 
-go get golang.org/x/net/http2/hpack
+<img width="923" height="70" alt="image" src="https://github.com/user-attachments/assets/af0c7268-dd97-4f22-abf2-90e846d00cf9" />
 
-go build -o rapidresetclient
+<img width="952" height="229" alt="image" src="https://github.com/user-attachments/assets/843f7eee-7e5e-4f74-95b7-4cae547bb5f2" />
+
+<img width="914" height="332" alt="image" src="https://github.com/user-attachments/assets/6b3be23d-a56f-4828-9e78-086769db39e6" />
+
 ```
 
 ### Flags
@@ -44,26 +49,10 @@ go build -o rapidresetclient
 
 Send 10 HTTP/2 requests (HEADERS and RST_STREAM frames) over a single connection to https://example.com using 5 workers, a 10 ms delay between sending HEADERS and RST_STREAM frames, and a wait time of 100 ms between each invocation.
 
-```
-./rapidresetclient  -requests=10  -url  https://example.com  -wait=100  -delay=10 -concurrency=5
-```
+## Contact Me
 
-## Built With
+-  Krishan Pal
+-  https://krishanpal21.pythonanywhere.com/
 
-- [http2](https://pkg.go.dev/golang.org/x/net/http2) - Package that exposes low-level HTTP/2 primitives
 
-- [http2/hpack](https://pkg.go.dev/golang.org/x/net/http2/hpack) - HTTP/2 header compression package
 
-## Authors
-
--  Jeffrey  Lyon  -  *Initial  release*  - @secengjeff
-
-See also the list of [contributors](https://github.com/secengjeff/rapidresetclient/contributors)
-
-## License
-
-This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details
-
-## Acknowledgments
-
-This work is based on the [initial analysis of CVE-2023-44487](https://cloud.google.com/blog/products/identity-security/how-it-works-the-novel-http2-rapid-reset-ddos-attack) by Juho Snellman and  Daniele Iamartino at Google.
