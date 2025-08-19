@@ -23,8 +23,8 @@ cd rapidresetclient
 chmod +x rapid.sh
 ./rapid.sh
 
-![Tool Banner]
-<img width="923" height="81" alt="image" src="https://github.com/user-attachments/assets/0d9762ad-1c18-45f7-9834-e950ba75b99d" />
+<img width="953" height="81" alt="image" src="https://github.com/user-attachments/assets/4ef6aa05-7b2d-461c-98e1-9155eb6cf4cb" />
+
 
 
 ```
