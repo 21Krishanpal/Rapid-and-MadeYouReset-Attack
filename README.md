@@ -5,7 +5,7 @@ Rapid and MadeYouReset script is a testing tool for the Rapid/MadeYouReset DDoS 
 ## Prerequisites
 
 - [Go](https://golang.org/dl/)
-- [Python]_(https://www.python.org/)
+- [Python](https://www.python.org/)
 
 Tested on go1.21.3/Python3 on arm64.  
 
