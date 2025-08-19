@@ -49,6 +49,14 @@ chmod +x rapid.sh
 
 Send 20 HTTP/2 requests (HEADERS and RST_STREAM frames) over a single connection to https://example.com using 5 workers, a 10 ms delay between sending HEADERS and RST_STREAM frames, and a wait time of 100 ms between each invocation.
 
+### Impact of Rapid Reset / MadeYouReset Vulnerability
+#### Business Disruption (Denial of Service)
+- These vulnerabilities allow attackers to launch highly efficient Distributed Denial of Service (DDoS) attacks against web applications and APIs.
+- Even a small number of malicious requests can overwhelm servers, leading to downtime of customer-facing applications, portals, or online services.
+#### Financial Impact
+- **Direct costs**: additional cloud/CDN bandwidth, emergency mitigation, or acquiring DDoS protection services.
+- Large-scale DDoS incidents can cause millions in losses per day for service-driven organizations.
+
 ## Contact Me
 
 -  Krishan Pal
