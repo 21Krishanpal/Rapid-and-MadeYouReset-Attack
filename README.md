@@ -35,15 +35,15 @@ chmod +x rapid.sh
 
 ### Flags
 
-- `requests`: Number of requests to send (default is 5)
+- `requests`: Number of requests to send.
 
-- `url`: Server URL (`https://example.com:443`)
+- `url`: Server URL (`https://example.com:443`).
 
-- `wait`: Wait time in milliseconds between starting workers (default is 0)
+- `wait`: Wait time in milliseconds between starting workers.
 
-- `delay`: Delay in milliseconds between sending HEADERS and RST_STREAM frames (default is 0)
+- `delay`: Delay in milliseconds between sending HEADERS and RST_STREAM frames.
 
-- `concurrency`: Maximum number of concurrent workers (default is 0)
+- `concurrency`: Maximum number of concurrent workers.
 
 ### Example
 
